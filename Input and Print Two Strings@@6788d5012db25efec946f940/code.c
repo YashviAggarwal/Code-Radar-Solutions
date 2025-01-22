@@ -6,3 +6,4 @@ int main(){
     scanf("%99s",&b);
     printf("You entered: %s and %s",a,b);
     return 0;
+}
