@@ -1,23 +1,23 @@
 #include <stdio.h>
 int main(){
-    int day;
-    scanf("%d",&day);
-    if(day==1){
+    int n;
+    scanf("%d",&n);
+    if(n==1){
         printf("Monday");
     }
-    else if(day==2){
+    else if(n==2){
         printf("Tuesday");
     }
-    else if(day==3){
+    else if(n==3){
         printf("Wednesday");
     }
-    else if(day==4){
+    else if(n==4){
         printf("Thursday");
     }
-    else if(day==5){
+    else if(n==5){
         printf("Friday");
     }
-    else if(day==6){
+    else if(n==6){
         printf("Saturday");
     }
     else{
