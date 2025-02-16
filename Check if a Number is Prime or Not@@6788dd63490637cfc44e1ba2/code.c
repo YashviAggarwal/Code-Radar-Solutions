@@ -2,18 +2,19 @@
 #include <math.h>
 int main(){
     int n;
-    int count=0;
+    int isPrime=1;
     scanf("%d",&n);
     if(n<2){
         printf("Not Prime");
+        return 0;
     }
     for(int i=2;i<=sqrt(n);i++){
         if(n%i==0){
-            count++;
+            isPrime=0;
             break;
         }
     }
-    if(count==0){
+    if(isPrime){
         printf("Prime");
     }
     else{
