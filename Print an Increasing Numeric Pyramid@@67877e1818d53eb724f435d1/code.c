@@ -6,10 +6,10 @@ int main(){
         for(int space=1;space<=n-i;space++){
             printf(" ");
         }
-        for(j=1;j<=i;j++){
+        for(int j=1;j<=i;j++){
             printf("%d ",j);
         }
-        printf("/n");
+        printf("\n");
     }
     return 0;
 }
