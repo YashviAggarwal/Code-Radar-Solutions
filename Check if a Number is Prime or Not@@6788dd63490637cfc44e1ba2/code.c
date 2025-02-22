@@ -1,25 +1,28 @@
+
 #include <stdio.h>
 #include <math.h>
 int main(){
-    int n;
-    int isPrime=1;
+    int n,isPrime=1;
     scanf("%d",&n);
-    if(n<2){
+    if (n<2){
         printf("Not Prime");
         return 0;
     }
-    for(int i=2;i<=(int)sqrt(n);i++){
-        if(n%i==0){
-            isPrime=0;
-            break;
-        }
-    }
-    if(isPrime){
-        printf("Prime");
-    }
-    else{
-        printf("Not Prime");
-    }
-    return 0;
+        for(int i=2;i<=sqrt(n);i++){
+            if(n%i==0){
+                isPrime=0;
+                break;
 
+            }
+        }
+        if(isPrime){
+            printf("Prime");
+        }
+        else{
+            printf("Not Prime");
+        }
+        return 0;
+
+    
+    
 }
