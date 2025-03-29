@@ -14,12 +14,15 @@ int findOccurrence(int array[],int num,int key,char m ){
             if(array[i]==key){
                 return i;
             }
-            else{
-                return -1;
+            
             }
         }
+        else{
+            return -1;
+        }
+
     }
 
 
-}
+
 
