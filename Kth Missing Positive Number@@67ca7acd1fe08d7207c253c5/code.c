@@ -1,5 +1,5 @@
 #include <stdio.h>
-int findKthMissing(int num,int ar[],int key){
+int findKthMissing(int ar[],int num,int key){
     int left=0,right=num-1;
     while(left<=right){
         int mid=left+(right-left)/2;
