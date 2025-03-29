@@ -1,5 +1,5 @@
 #include <stdio.h>
-int findOccurence(int array[],int num,int key,char m ){
+int findOccurrence(int array[],int num,int key,char m ){
     if(m='F'){
         for(int i=0;i<num;i++){
             if(array[i]==key){
