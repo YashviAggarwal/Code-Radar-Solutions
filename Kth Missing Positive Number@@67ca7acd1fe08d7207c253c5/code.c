@@ -4,7 +4,7 @@ int kthmissing(int num,int ar[],int key){
     while(left<=right){
         int mid=left+(right-left)/2;
         int missing=ar[mid]-(mid+1);
-        if(missing<k){
+        if(missing<key){
             left=mid+1;
         }
         else{
