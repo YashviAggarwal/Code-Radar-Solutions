@@ -1,5 +1,5 @@
 #include <stdio.h>
-int fibonacciSeries(num){
+int fibonacciSeries( int num){
     
     for(int i=1;i<=num;i++){
         return a;
