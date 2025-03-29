@@ -12,5 +12,5 @@ int kthmissing(int num,int ar[],int key){
         }
     }
     
-    return left+k;
+    return left+key;
 }
