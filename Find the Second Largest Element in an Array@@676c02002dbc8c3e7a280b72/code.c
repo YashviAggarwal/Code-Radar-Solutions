@@ -15,7 +15,7 @@ int main(){
             secondlargest=arr[i];
         }
         else{
-            printf("-1")
+            printf("-1");
         }
 
     }
