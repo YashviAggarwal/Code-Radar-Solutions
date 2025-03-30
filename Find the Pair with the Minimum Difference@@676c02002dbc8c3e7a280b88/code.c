@@ -21,11 +21,14 @@ int main(){
         if(swapped==0) break;
     }
     int min_diff = arr[1] - arr[0];
+    int p1,p2;
     for(int i=0;i<n-1;i++){
         if(arr[i+1]-arr[i]<min_diff){
             min_diff=arr[i+1]-arr[i];
+             p1=arr[i];
+             p2=arr[i+1];
         }
     }
-    printf("%d %d",arr[i],arr[i+1]);
+    printf("%d %d",p1,p2);
     return 0;
 }
