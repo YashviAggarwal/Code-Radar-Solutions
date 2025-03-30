@@ -20,6 +20,12 @@ int main(){
         }
         if(swapped==0) break;
     }
-    printf("%d %d",arr[0],arr[1]);
+    int min_diff = arr[1] - arr[0];
+    for(int i=0;i<n-1;i++){
+        if(arr[i+1]-arr[i]<min_diff){
+            min_diff=arr[i+1]-arr[i];
+        }
+    }
+    printf("%d %d",arr[i],arr[i+1]);
     return 0;
 }
