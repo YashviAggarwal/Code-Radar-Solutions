@@ -15,12 +15,15 @@ int main(){
                 swapped=1;
             }
         }
+        if(swapped==0){
+        break;
     }
-    if(swapped==0){
-        printf("Not Sorted");
     }
-    else{
-        printf("Sorted");
+    
+    if (swapped == 0) {
+        printf("Not Sorted\n");
+    } else {
+        printf("Sorted\n");
     }
     return 0;
 }
