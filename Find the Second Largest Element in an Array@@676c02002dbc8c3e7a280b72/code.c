@@ -1,11 +1,12 @@
 #include <stdio.h>
+#include <limits.h>
 int main(){
     int n,arr[100];
     scanf("%d",&n);
     for(int i=0;i<n;i++){
         scanf("%d",&arr[i]);
     }
-    int largest=-1,secondlargest=-1;
+    int largest=INT_MAX,secondlargest=INT_MAX;
     if(n<2){
         printf("-1");
         return 0;
