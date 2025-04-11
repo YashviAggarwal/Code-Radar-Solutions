@@ -8,7 +8,7 @@ int main(){
     int largest=-1,secondlargest=-1;
     if(n<2){
         printf("-1");
-        break;
+   return;     
     }
     for(int i=0;i<n;i++){
         if(arr[i]>largest){
