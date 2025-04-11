@@ -21,6 +21,6 @@ int main(){
         }
 
     }
-    printf("%d",secondlargest);
+    printf("%d",secondlargest>arr[i]?secondlargest:-1);
     return 0;
 }
